@@ -1,0 +1,33 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<university>
+  <department name="Computer Science">
+    <course code="CS101">
+      <title>Introduction to Programming</title>
+      <teacher role="professor">Alice Johnson</teacher>
+      <teacher role="assistant">Bob Smith</teacher>
+      <students>
+        <student id="1" year="2023">John Doe</student>
+        <student id="2" year="2023">Jane Doe</student>
+      </students>
+    </course>
+    <course code="CS102">
+      <title>Data Structures</title>
+      <teacher role="professor">Charlie Brown</teacher>
+      <teacher role="assistant">Dana White</teacher>
+      <students>
+        <student id="3" year="2024">Mark Lee</student>
+      </students>
+    </course>
+  </department>
+  <department name="Mathematics">
+    <course code="MA101">
+      <title>Calculus</title>
+      <teacher role="professor">Emily Green</teacher>
+      <students>
+        <student id="4" year="2023">Anna Taylor</student>
+        <student id="5" year="2024">Chris Walker</student>
+      </students>
+    </course>
+  </department>
+</university>

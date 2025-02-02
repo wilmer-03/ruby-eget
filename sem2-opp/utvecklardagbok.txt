@@ -1,0 +1,47 @@
+Utvecklardagbok
+
+Uppgift 1:
+
+Till att börja med gjorde vi en funktion som skulle dela på en sträng får att få ut en array med 2 ints, som sedan
+returnerar differansen mellan dessa. Denna funktion gjorde vi med syftet att applicera på ett element som innehåller 2 siffror.
+
+Sedan skalade vi upp detta när vi gjorde tabell-funktionen. Denna söker igenom filen med fotbollsresultat och 
+sparar regex-sökresultaten i 2 arrays; 1 för målen, 1 för lagnamnen. Sedan körs get_diff på varje element i matchdatat för att
+få ut alla värden. Sedan paras värdena ihop med lagen igen i en array och returneras. 
+
+För del 2 av uppgiften kunde vi återanvända all kod med endast små variationer. I slutändan såg funktionerna nästan nästan lika 
+ut bortsett från att man nu skickar in parametrar i funktionerna. Detta innebär att vi undvek kodupprepning.
+Annars var det enda som tog tid var att hitta lämpliga regex-uttryck, men det löste sig. 
+
+Uppgift 2:
+
+Vi utgick från dagens föreläsning, som gick igenom hur man parsar XML-filer med DOM. Vi valde att att skapa en lista med hashes,
+där varje hash representerar ett event, och innehållet av dess nycklar. Det som var tidskrävande med denna uppgift var inte själva
+kodningen, utan att läsa html-filen för att lista ut sökvägarna, vilket vi behövde lite hjälp med. Strukturen i HTML-dokument är 
+ju egentligen detsamma som att arbeta i terminalen så i teori bör det inte ha varit svårt, men hur dokumentet (lite spaghetti)
+innebär att det är inte så lätt att veta vad man kollar på.
+
+Uppgift 3:
+
+Filen är hierarkisk med flera nivåer. I och med detta behöver man navigera neråt i dokumentet. Många element i dokumentet
+har attribut som kan användas för att testa XPath-filtrering. Exempelvis kan man hämta endast studenter från ett visst år,
+eller namnen på professorer som undervisar en viss kurs. 
+
+Uppgiftsbeskrivning:
+
+XML-filen representerar en databas för departement på ett universitet. Den innehåller dess kurser, samt vilken personal 
+som är inblandat och studenterna. Som uppgift har ni att använda er av SAX-parsning för att få ut den specifierade datan:
+
+Alla kurskoder som tillhör CS-departementet
+
+Alla assistenter
+
+Alla studenter vars namn börjar på bokstaven A
+
+
+Kommentar om uppgift 3:
+
+Det svåra med utformningen av uppgiften är att det är lätt att göra den för lätt eller för svår, då det inte är självklart
+förrän man försöker lösa den själv. Då vi inte gjort det är svårighetsgraden inte helt självklar för oss, men vi misstänker
+att den är på den enklare änden av skalan. Vi ville inte göra en för svår uppgift då vi ville göra något som någon med mindre
+erfarenhet än oss klarar av att lösa.
