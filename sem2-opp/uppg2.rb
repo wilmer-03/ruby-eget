@@ -37,4 +37,9 @@ def get_info(doc)
   return events
 end
 
-p get_info("events.html")[1]
+# p get_info("events.html")[1]
+x = get_info("events2.html")
+
+for i in x do
+    p i
+end

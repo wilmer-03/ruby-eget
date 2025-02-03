@@ -43,7 +43,7 @@ teams = /[\d]+\. [A-Z][\w]+/ #hitta lagnamn
 
 table = tabell("football.txt", "-", fball_res, teams)
 
-#p table[-1]
+p table[-1]
 
-#p table
+p table
 

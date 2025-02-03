@@ -1,0 +1,27 @@
+Uppgift 1:
+Dem hämtar med uttrycket bara den relevanta informationen - 
+vi hämtade all info.
+Dem har två regex, en för de två poäng och en för lagnamn.
+Vi har två regex, en för all information lag, och alla poäng och en för koresponderande-
+poäng kategori.
+Som vi tydde uppgiften så ville vi ha differansen i poäng,
+vi antog därför att poängen inte kan vara negativa och använde absolut belopp,
+dem gjorde inte de vilket ledde till att vissa av deras resultat var samma som våra
+men andra var negativa.
+Deras sortering verkar inte stämma utifrån vad vi sett, dem verkar varken sortera efter
+lagordning eller poäng.
+Deras tester likt våra är gjorda utifrån resultatet de fick.
+
+Uppgift2:
+
+Dem använder en array med hash-maps där varje hash innehåller info om ett event.
+Vi gör liknande men vår är en array med vår egengjorda klass Calender som innehåller en namn variabel-
+för eventets namn och en hash-map för den resterande infon.
+
+Deras utdata är mer detaljerade och fick även med event beskrivning vilket vi missade att göra,
+utdatan är dock väldigt svårläst, vi gjorde istället så att t.ex. för infon om vart eventet ska vara så
+kombinerade vi locality och region till en sträng som vi sparade i hashen eftersom vi ville efterlikna kalendern
+man såg när man öppnade html filen på webläsaren.
+
+Deras kod är mer funktionell medans våran är mer objektorienterad vilket leder till att deras är
+mycket mera kompakt och läsbar medans får är mer flexibel men kräver mera kod.
